@@ -58,12 +58,12 @@ Poisson-PMF/
 
 ## ⚙️ Local Setup
 
-### 🔹 Download ZIP
+### 🔹 Download ZIP File
 
 Download the project directly:  
 👉 https://github.com/Akash-Wakade-7008-alt/Maths-Functions/releases/download/PMF-Poissions-Distribution-v1.0/PMF-poission-distrubution.zip
 
-1. Click **Download ZIP** button above
+1. Click **👆**
 2. Extract the folder
 3. Run:
 
