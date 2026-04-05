@@ -100,5 +100,3 @@ This repository grows with my understanding.
 Each function here represents not just code, but a concept truly learned.
 
 
-
-[text](<../../../Downloads/Drum-Kit 2.zip>)
