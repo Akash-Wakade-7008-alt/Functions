@@ -24,7 +24,7 @@ The Poisson PMF is given by:
 
 ---
 
-## 📸 Sample Input Output
+## 📸 Sample Input/Output
 
 <p align="center">
   <img src="images/Example.png" width="500"/>
