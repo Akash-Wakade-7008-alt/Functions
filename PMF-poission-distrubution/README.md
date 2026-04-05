@@ -1,7 +1,7 @@
 # 📊 Poisson Distribution PMF (Java)
 
 <p align="center">
-  <b>High-quality Java implementation of Poisson PMF with mathematical depth and practical relevance</b>
+  <b>High-quality Java implementation of Poisson PMF with strong mathematical foundation</b>
 </p>
 
 <p align="center">
@@ -9,25 +9,19 @@
   <img src="https://img.shields.io/github/forks/your-username/poisson-pmf?style=for-the-badge"/>
   <img src="https://img.shields.io/github/issues/your-username/poisson-pmf?style=for-the-badge"/>
   <img src="https://img.shields.io/github/license/your-username/poisson-pmf?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/actions/workflow/status/your-username/poisson-pmf/main.yml?style=for-the-badge"/>
 </p>
 
 ---
 
 ## 📌 Overview
 
-This project provides a **robust and modular implementation** of the **Poisson Probability Mass Function (PMF)** in Java.
+This project provides a **clean and modular implementation** of the **Poisson Probability Mass Function (PMF)** in Java.
 
-It is designed not just as a coding project, but as a **bridge between theory and real-world statistical modeling**.
-
----
-
-## 📦 Quick Access
-
-<p align="center">
-  <a href="https://github.com/your-username/poisson-pmf/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/Download-ZIP-blue?style=for-the-badge&logo=github"/>
-  </a>
-</p>
+It bridges:
+- 📚 Mathematical theory  
+- 💻 Practical implementation  
+- 📊 Real-world applications  
 
 ---
 
@@ -35,17 +29,17 @@ It is designed not just as a coding project, but as a **bridge between theory an
 
 ```
 Poisson-PMF/
-│── Main.java              # Handles user interaction
+│── Main.java              # Handles user input
 │── PoissonPMF.java       # Core PMF logic
 │── images/
 │     ├── Example.png     # Output preview
-│     └── Graph.png       # Distribution graph
+│     └── Graph.png       # Distribution visualization
 │── README.md
 ```
 
 ---
 
-## 📸 Preview
+## 📸 Sample Input Output 
 
 <p align="center">
   <img src="images/Example.png" width="500"/>
@@ -59,7 +53,7 @@ Poisson-PMF/
   <img src="images/Graph.png" width="600"/>
 </p>
 
-> The graph represents how probability varies with different values of **k** for a fixed λ.
+> This graph shows how probability varies with different values of **k** for a fixed λ.
 
 ---
 
@@ -73,34 +67,24 @@ P(X = k) = \frac{e^{-\lambda} \cdot \lambda^k}{k!}
 
 ## 🧠 Deep Statistical Explanation (GSoC Level)
 
-The **Poisson Distribution** emerges as a limiting case of the **Binomial Distribution**:
+The **Poisson Distribution** is derived as a limiting case of the **Binomial Distribution**:
 
 \[
 \lim_{n \to \infty, \, p \to 0} \text{Binomial}(n, p) = \text{Poisson}(\lambda = np)
 \]
 
-### 🔍 Key Intuition
+### 🔍 Intuition
 
-- When events are **rare but numerous in trials**, Poisson becomes the ideal model.
-- Instead of tracking success probability per trial, we track **average rate (λ)**.
+- When events are **rare but trials are large**, Poisson becomes ideal  
+- Instead of probability per trial, we focus on **rate (λ)**  
 
 ---
 
 ### 📌 Properties
 
-- **Mean** = λ  
+- **Mean (Expected Value)** = λ  
 - **Variance** = λ  
 - **Standard Deviation** = √λ  
-
----
-
-### 🔗 Why It Matters
-
-Poisson is widely used because:
-
-- It simplifies complex probabilistic systems  
-- It models **real-world randomness efficiently**  
-- It avoids combinatorial explosion from binomial calculations  
 
 ---
 
@@ -108,26 +92,26 @@ Poisson is widely used because:
 
 | Scenario | Meaning of λ |
 |----------|-------------|
-| 📞 Calls in a call center | Avg calls per minute |
-| 🚗 Traffic flow | Cars passing per hour |
-| 🌐 Network packets | Requests per second |
-| 🧪 Radioactive decay | Decay events per unit time |
+| 📞 Calls in a call center | Calls per minute |
+| 🚗 Traffic flow | Cars per hour |
+| 🌐 Server requests | Requests per second |
+| 🧪 Radioactive decay | Events per unit time |
 
 ---
 
 ## 🚀 Features
 
-- 📥 Dynamic user input
-- ⚡ Efficient factorial computation
-- 🧩 Clean modular design
-- 📊 Visualization-ready structure
-- 📚 Strong theoretical grounding
+- 📥 User input for λ and k  
+- ⚡ Efficient PMF computation  
+- 🧩 Modular Java design  
+- 📊 Visualization-ready  
+- 📚 Beginner-friendly yet scalable  
 
 ---
 
 ## ⚙️ Local Setup
 
-### 🔹 Clone Repository
+### 🔹 Option 1: Clone Repository
 
 ```bash
 git clone https://github.com/your-username/poisson-pmf.git
@@ -138,10 +122,10 @@ java Main
 
 ---
 
-### 🔹 Download ZIP
+### 🔹 Option 2: Download ZIP
 
-1. Click the **Download ZIP** button above  
-2. Extract files  
+1. Click **Download ZIP** button above  
+2. Extract the folder  
 3. Run:
 
 ```bash
@@ -166,39 +150,33 @@ P(X = 2) = 0.1465
 
 ## 🧠 Implementation Insight
 
-The implementation carefully handles:
+This implementation ensures:
 
-- **Factorial computation** → iterative approach  
-- **Floating-point precision**  
-- **Efficient exponent calculation**  
+- ✔ Efficient factorial computation  
+- ✔ Accurate floating-point handling  
+- ✔ Clean separation of concerns  
 
 ---
 
 ## 🔮 Future Enhancements
 
-- 📊 Interactive graph plotting
-- 🌐 Convert to REST API (Spring Boot)
-- 🤖 Integrate with ML pipelines
-- 🧪 Add JUnit testing
-- 📦 Publish as Java library (Maven)
+- 📊 Interactive graph plotting  
+- 🌐 REST API (Spring Boot)  
+- 🤖 Integration with ML workflows  
+- 🧪 Unit testing (JUnit)  
+- 📦 Publish as Maven package  
 
 ---
 
 ## 🤝 Contributing
 
 ```bash
-git checkout -b feature/amazing-feature
+git checkout -b feature/your-feature
 git commit -m "Add feature"
-git push origin feature/amazing-feature
+git push origin feature/your-feature
 ```
 
-Then open a Pull Request 🚀
-
----
-
-## 📜 License
-
-MIT License
+Open a Pull Request 🚀
 
 ---
 
@@ -209,5 +187,5 @@ MIT License
 ---
 
 <p align="center">
-  ⭐ Star this repository if you appreciate the work!
+  ⭐ Star this repository if you find it useful!
 </p>
