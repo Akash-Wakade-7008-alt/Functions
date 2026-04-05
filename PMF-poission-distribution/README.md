@@ -61,7 +61,7 @@ Poisson-PMF/
 ### 🔹 Download ZIP File
 
 Download the project directly:  
-👉 https://github.com/Akash-Wakade-7008-alt/Maths-Functions/releases/download/PMF-Poissions-Distribution-v1.0/PMF-poission-distrubution.zip
+👉 https://github.com/Akash-Wakade-7008-alt/Maths-Functions/releases/download/PMF-Poissions-Distribution-v2.0/PMF-poission-distribution.zip
 
 1. Click **👆**
 2. Extract the folder
