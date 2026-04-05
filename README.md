@@ -20,7 +20,7 @@ Instead of just solving problems, I focus on:
 ---
 
 ## 📁 About the Project
-
+```
 Maths-Functions/
 │
 ├── Functions/
@@ -56,7 +56,7 @@ Maths-Functions/
 - Java (current primary language)  
 - JavaScript (learning & expanding)  
 - Additional languages may be added over time  
-
+```
 ---
 
 
