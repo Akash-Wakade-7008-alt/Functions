@@ -4,16 +4,6 @@
   <b>High-quality Java implementation of Poisson PMF with strong mathematical foundation</b>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/your-username/poisson-pmf?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/forks/your-username/poisson-pmf?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/issues/your-username/poisson-pmf?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/license/your-username/poisson-pmf?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/actions/workflow/status/your-username/poisson-pmf/main.yml?style=for-the-badge"/>
-</p>
-
----
-
 ## 📌 Overview
 
 This project provides a **clean and modular implementation** of the **Poisson Probability Mass Function (PMF)** in Java.
@@ -59,10 +49,9 @@ Poisson-PMF/
 
 ## 🧮 Mathematical Foundation
 
-\[
-P(X = k) = \frac{e^{-\lambda} \cdot \lambda^k}{k!}
-\]
-
+<p align="center">
+  <img src="https://latex.codecogs.com/png.image?\dpi{150}P(X%20=%20k)%20=%20\frac{e^{-\lambda}%20\cdot%20\lambda^k}{k!}" />
+</p>
 ---
 
 ## 🧠 Deep Statistical Explanation (GSoC Level)
