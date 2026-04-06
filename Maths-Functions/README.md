@@ -23,33 +23,28 @@ Instead of just solving problems, I focus on:
 ```
 Functions/
 │
-├── Maths-Functions/
-│   │
-│   ├── Mean/
-│   │   ├── Main.java              # Entry point (user input)
-│   │   ├── Mean.java              # Logic implementation
-│   │   └── README.md              # Explanation + formula
-│   │
-│   ├── PMF-Poisson/
-│   │   ├── Main.java
-│   │   ├── PMF.java
-│   │   ├── images/
-│   │   │   ├── Example.png
-│   │   │   └── Graph.png
-│   │   └── README.md
-│   │
-│   ├── PDF-Exponential/
-│   │   ├── Main.java
-│   │   ├── PDF.java
-│   │   └── README.md
-│   │
-│   └── (more functions will go here)
-│
-├── docs/                          
-│
-├── .gitignore
-├── LICENSE
-└── README.md                      # Main project overview
+└── Maths-Functions/
+    │
+    ├── Mean/
+    │   ├── Main.java              # Entry point (user input)
+    │   ├── Mean.java              # Logic implementation
+    │   └── README.md              # Explanation + formula
+    │
+    ├── PMF-Poisson/
+    │   ├── Main.java
+    │   ├── PMF.java
+    │   ├── images/
+    │   │   ├── Example.png
+    │   │   └── Graph.png
+    │   └── README.md
+    │
+    ├── PDF-Exponential/
+    │   ├── Main.java
+    │   ├── PDF.java
+    │   └── README.md
+    │
+    └── (more functions will go here)
+             
 
 ## 🛠️ Tech Stack
 
